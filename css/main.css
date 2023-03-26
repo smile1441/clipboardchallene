@@ -1,1 +1,61 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.main-logo {
+  width: 6.5em;
+  margin: 2.5em 0;
+}
+
+main {
+  text-align: center;
+  padding: 5em 3em;
+}
+
+.hero h1 {
+  margin-bottom: 1.5em;
+  font-size: 1.6rem;
+}
+.hero p {
+  font-size: 0.8rem;
+  color: gray;
+}
+.hero img {
+  width: 15em;
+}
+.hero button {
+  width: 100%;
+  border-radius: 2em;
+  padding: 1em;
+  margin-top: 1em;
+}
+.hero .downloads .btn-ios {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+}
+.hero .downloads .btn-mac {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+}
+.hero h2 {
+  margin-top: 6em;
+}
+.hero .paragraph-snippets {
+  margin: 2em 0;
+}/*# sourceMappingURL=main.css.map */
