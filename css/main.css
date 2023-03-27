@@ -45,6 +45,9 @@ main {
   font-weight: 600;
   color: white;
 }
+.hero .downloads .btn-ios:hover {
+  cursor: pointer;
+}
 .hero .downloads .btn-mac {
   background-color: hsl(233, 100%, 69%);
   border: none;
@@ -53,9 +56,70 @@ main {
   font-weight: 600;
   color: white;
 }
+.hero .downloads .btn-mac:hover {
+  cursor: pointer;
+}
 .hero h2 {
   margin-top: 6em;
 }
 .hero .paragraph-snippets {
   margin: 2em 0;
+}
+.hero .right-col .quick-search h3 {
+  margin-top: 2em;
+}
+.hero .right-col .quick-search p {
+  margin-top: 0.8em;
+}
+.hero .right-col .icloud-sync h3 {
+  margin-top: 1.7em;
+}
+.hero .right-col .icloud-sync p {
+  margin-top: 0.8em;
+}
+.hero .right-col .complete-history h3 {
+  margin-top: 1.7em;
+}
+.hero .right-col .complete-history p {
+  margin-top: 0.8em;
+}
+.hero .access-clipboard-anywhere p {
+  margin: 1em 0;
+}
+.hero .img-device {
+  margin-top: 2.5em;
+  width: 18em;
+}
+
+.tools-section {
+  padding: 1em 3em;
+  text-align: center;
+}
+.tools-section p {
+  color: gray;
+}
+.tools-section .workflow-title p {
+  margin-top: 1em;
+}
+.tools-section .workflow-list {
+  margin-top: 2em;
+}
+.tools-section .workflow-list h3 {
+  margin: 1em 0;
+}
+.tools-section .workflow-list p {
+  margin: 1em 0;
+}
+.tools-section .workflow-list img {
+  margin-top: 2em;
+}
+
+.supports ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.supports ul li {
+  text-align: center;
+  margin: 3em 0;
 }/*# sourceMappingURL=main.css.map */

@@ -61,6 +61,10 @@ main {
             color: white;
         }
 
+        .btn-ios:hover {
+            cursor: pointer;
+        }
+
 
         .btn-mac {
             background-color: hsl(233, 100%, 69%);
@@ -70,6 +74,10 @@ main {
             font-weight: 600;
             color: white;
         
+        }
+
+        .btn-mac:hover {
+            cursor: pointer;
         }
     }
 
@@ -83,6 +91,105 @@ main {
 
 
 
+    .right-col {
+
+        .quick-search {
+            h3 {
+                margin-top: 2em;
+
+            }
+
+            p {
+                margin-top: .8em;
+            }
+        }
+
+        .icloud-sync {
+
+            h3 {
+                margin-top: 1.7em;
+
+            }
+
+            p {
+                margin-top: .8em;
+            }
+        }
+
+        .complete-history {
+            h3 {
+                margin-top: 1.7em;
+
+            }
+
+            p {
+                margin-top: .8em;
+            }
+        }
+
+
+    }
+
+
+    .access-clipboard-anywhere {
+        p {
+            margin: 1em 0;
+        }
+    }
+
+
+    .img-device {
+        margin-top: 2.5em;
+        width: 18em;
+    }
 
     
+}
+
+.tools-section {
+    padding: 1em 3em;
+    text-align: center;
+
+    p {
+        color: gray;
+    }
+
+
+    .workflow-title {
+        p {
+            margin-top: 1em;
+        }
+    }
+
+    .workflow-list {
+
+        margin-top: 2em;
+
+
+         h3 {
+            margin: 1em 0;
+         }
+
+         p {
+            margin: 1em 0;
+         }
+
+         img {
+            margin-top: 2em;
+         }
+    }
+}
+
+.supports {
+    ul {
+        list-style-type: none;
+
+        text-align: center;
+        padding: 0;
+
+        li {
+            text-align: center;
+            margin: 3em 0;
+        }
+    }
 }
