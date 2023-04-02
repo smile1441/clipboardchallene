@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
@@ -193,3 +194,167 @@ main {
         }
     }
 }
+
+.clipboards {
+    padding: 5em 3em;
+    text-align: center;
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: .8rem;
+        color: gray;
+        margin-top: 1.5em;
+        line-height: 1.7em;
+        font-size: 1rem;
+    }
+
+
+    .downloads {
+        margin-top: 2em;
+        
+
+        button {
+            width: 100%;
+            border-radius: 2em;
+            padding: 1em;
+            margin-top: 1em;
+        }
+
+        .btn-ios {
+            background-color: hsl(171, 66%, 44%);
+            border: none;
+            font-family: inherit;
+            font-size: .8rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .btn-ios:hover {
+            cursor: pointer;
+        }
+
+
+        .btn-mac {
+            background-color: hsl(233, 100%, 69%);
+            border: none;
+            font-family: inherit;
+            font-size: .8rem;
+            font-weight: 600;
+            color: white;
+        
+        }
+
+        .btn-mac:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: hsl(220, 3%, 77%);
+    padding: 0;
+    bottom: 0;
+    height: 60vh;
+
+    .footer-logo {
+        img {
+            width: 3em;
+            margin-top: 3em;
+        }
+    }
+
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        
+        li {
+            margin: 1.5em 0;
+            color: hsl(210, 3%, 29%);
+            font-weight: bold;
+        }
+
+
+    }
+}
+
+@media only screen and (min-width:780px) {
+
+    main {
+        padding: 0;
+    }
+
+    .hero {
+
+        
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: .5em;
+        }
+
+        p {
+            
+            font-size: 1rem;
+            padding: .5em 2em;
+
+            
+            
+        }
+
+        .downloads {
+            display: flex;
+            gap: 1em;
+            width: 25em;
+            justify-content: center;
+            margin:  auto;
+        }
+
+
+        .second-hero {
+            display: flex;
+            justify-content: center;
+            
+
+
+
+            .left-col {
+                
+                img {
+                    width: 30em;
+                    transform: translateX(-20%);
+                    
+                }
+            }
+
+            .right-col {
+                width: 30%;
+                padding: 1em 1em;
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+   .hero {
+
+    
+    .second-hero {
+        .left-col {
+            img {
+                width: 40em;
+                transition:  0.5s;
+            }
+        }
+       }
+   }
+}
+
