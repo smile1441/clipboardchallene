@@ -336,6 +336,53 @@ footer {
                 padding: 1em 1em;
             }
         }
+
+        .img-device {
+            width: 40em;
+            transition: .5s;
+        }
+    }
+
+    .workflow-list{
+        display: flex;
+        justify-content: center;
+    }
+
+    .supports {
+        margin: 5em 0;
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            gap: .8em;
+        }
+    }
+
+    .clipboards {
+        .downloads {
+            display: flex;
+            gap: 1em;
+            width: 25em;
+            justify-content: center;
+            margin:  auto;
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 25vh;
+
+        ul {
+            display: flex;
+            gap: 3em;
+        }
+
+        .footer-logo {
+             img {
+                margin-top: 0;
+             }
+        }
     }
 
 
@@ -355,6 +402,13 @@ footer {
             }
         }
        }
+
+       .img-device {
+        width: 50em;
+        transition: .2s;
+    }
    }
+
+   
 }
 

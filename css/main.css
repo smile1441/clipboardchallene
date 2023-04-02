@@ -222,10 +222,50 @@ footer ul li {
     width: 30%;
     padding: 1em 1em;
   }
+  .hero .img-device {
+    width: 40em;
+    transition: 0.5s;
+  }
+  .workflow-list {
+    display: flex;
+    justify-content: center;
+  }
+  .supports {
+    margin: 5em 0;
+  }
+  .supports ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.8em;
+  }
+  .clipboards .downloads {
+    display: flex;
+    gap: 1em;
+    width: 25em;
+    justify-content: center;
+    margin: auto;
+  }
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25vh;
+  }
+  footer ul {
+    display: flex;
+    gap: 3em;
+  }
+  footer .footer-logo img {
+    margin-top: 0;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .hero .second-hero .left-col img {
     width: 40em;
     transition: 0.5s;
+  }
+  .hero .img-device {
+    width: 50em;
+    transition: 0.2s;
   }
 }/*# sourceMappingURL=main.css.map */
